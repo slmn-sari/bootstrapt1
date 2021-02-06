@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Haber Portal</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap 5.0 CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">HABERLER</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">GÜNDEM</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">POLİTİKA</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">EKONOMİ</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  SPOR
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <li><a class="dropdown-item" href="#">Futbol</a></li>
+                                  <li><a class="dropdown-item" href="#">Basketbol</a></li>
+                                  <li><a class="dropdown-item" href="#">Voleybol</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                  </nav>
+                </div>
+            </div>
+        </div>  
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 mt-3">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/img1.jpg" class="d-block w-100" alt="..." width="200px">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 style="color:blue;">Tesla geri çağırıyor</h5>
+                              <p style="color:blue">Tesla dokunmatik ekran sorunu nedeniyle 135 bin aracı geri çağırıyor.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/img2.jpg" class="d-block w-100" alt="..." width="200px">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 style="color:blue;">SpaceX ve yine Patlama</h5>
+                              <p style="color:blue;">SpaceX'in ikinci Starship test uçuşu da patlamayla sonuçlandı</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/img3.jpg" class="d-block w-100" alt="..." width="200px">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 style="color:blue;">Çin'den misilleme</h5>
+                              <p style="color:blue;">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 mt-3">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Email Adresi</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  <div id="emailHelp" class="form-text"></div>
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Şifre</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Beni Hatırla</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">     G i r i ş     </button>
+                              </form>
+                        </div>
+                        <div class="col-md-1 mt-3"></div>
+                        <div class="col-md-8 mt-3">
+                            <table class="table table-borderless table-dark">
+                              <thead>
+                                <tr>
+                                  <th scope="col">#</th>
+                                  <th scope="col">First</th>
+                                  <th scope="col">Last</th>
+                                  <th scope="col">Handle</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>Mark</td>
+                                  <td>Otto</td>
+                                  <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td>Jacob</td>
+                                  <td>Thornton</td>
+                                  <td>@fat</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">3</th>
+                                  <td colspan="2">Larry the Bird</td>
+                                  <td>@twitter</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="col-md-1 mt-3"></div>
+                <div class="col-md-2 mt-3">             
+                    <ul class="list-group">
+                        <li class="list-group-item active" aria-current="true">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>                       
+                      </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 mt-3 mb-3">
+              <footer class="bg-light text-center text-lg-start">
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                  © 2020 Copyright:
+                  <a class="text-dark" href="https://haberportal.com/">HaberPortal.com</a>
+                </div>
+                <!-- Copyright -->
+              </footer>
+            </div>
+          </div>
+        </div>           
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
